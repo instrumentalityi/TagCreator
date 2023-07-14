@@ -1,0 +1,12 @@
+{
+  "name": "TagCreator",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "@napi-rs/canvas": "^0.1.25",
+    "colorsea": "^1.2.1",
+    "fs": "^0.0.1-security",
+    "prompt-sync": "^4.2.0",
+    "skia-canvas": "^1.0.1"
+  }
+}
