@@ -31,7 +31,7 @@ async function createTag(word, colour,darken) {
     context.fill(textPath.offset(0, 7)) //TEXT
 
     const png = await canvas.png
-    await promises.writeFile(join("./output", `${crypto.randomBytes(16).toString('hex')}.png`), png);
+    await promises.writeFile(join("./output", `${word}-${crypto.randomBytes(12).toString('hex')}.png`), png);
     return png;
 }
 
